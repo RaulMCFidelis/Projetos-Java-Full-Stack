@@ -6,16 +6,11 @@ public class PrimeiraClasseJava {
 	/*Main é um método auto executavel em JAVA*/
 	public static void main(String[] args) {
 		
-		/*CHAR representa uma letra*/
-		char pessoaFisica = 'F';
+		/*String no Java sempre será um texto de tamanho qualquer*/
+		String nome;
+		String cpf;
+		String telefone;
+		String endereco;
 		
-		char pessoaJuridica = 'J';
-		
-		if(pessoaFisica == 'F') {
-			System.out.println("Física");
-		}
-		else {
-			System.out.println("Jurídica");
-		}
 	}
 }
