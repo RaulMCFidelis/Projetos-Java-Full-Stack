@@ -10,7 +10,12 @@ public class PrimeiraClasseJava {
 		char pessoaFisica = 'F';
 		
 		char pessoaJuridica = 'J';
-	
 		
+		if(pessoaFisica == 'F') {
+			System.out.println("Física");
+		}
+		else {
+			System.out.println("Jurídica");
+		}
 	}
 }
